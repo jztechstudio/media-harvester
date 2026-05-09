@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>All Video Downloader</title>
+  <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+
+  <!-- হেডার -->
+  <div class="header">
+    <div class="logo">
+      <div class="logo-icon">▼</div>
+      <div class="logo-text">
+        <span class="logo-title">All Video</span>
+        <span class="logo-sub">Downloader</span>
+      </div>
+    </div>
+    <div id="site-badge" class="site-badge">Detecting...</div>
+  </div>
+
+  <!-- স্ক্যান বাটন -->
+  <div class="scan-section">
+    <button id="scan-btn" class="scan-btn">
+      <span class="scan-icon">⟳</span>
+      <span id="scan-label">Scan for Videos</span>
+    </button>
+  </div>
+
+  <!-- স্ট্যাটাস বার -->
+  <div id="status-bar" class="status-bar hidden">
+    <span id="status-text"></span>
+  </div>
+
+  <!-- ম্যানুয়াল URL সেকশন -->
+  <div class="manual-section">
+    <div class="manual-label">
+      <span class="manual-icon">🔗</span>
+      <span>Paste video URL manually</span>
+    </div>
+    <div class="manual-row">
+      <input
+        type="text"
+        id="manual-url"
+        class="manual-input"
+        placeholder="https://video.xx.fbcdn.net/...mp4"
+        spellcheck="false"
+      />
+      <button id="manual-btn" class="manual-dl-btn" title="Download this URL">⬇</button>
+    </div>
+    <div id="manual-status" class="manual-status hidden"></div>
+  </div>
+
+  <!-- ভিডিও লিস্ট -->
+  <div id="video-list" class="video-list">
+    <div class="empty-state" id="empty-state">
+      <div class="empty-icon">🎬</div>
+      <p>Play a video then click<br/><strong>Scan for Videos</strong>.<br/>Or paste a URL above.</p>
+    </div>
+  </div>
+
+  <!-- ফুটার -->
+  <div class="footer">⚠️ Personal use only. Respect copyright.</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

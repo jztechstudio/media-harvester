@@ -1,2 +1,73 @@
-# media-harvester
-Go to Facebook/YouTube/Instagram  Open any video page or reel  Click extension icon (in Chrome toolbar)  See all videos from that page  Click Download button next to any video  Video saves as .mp4 in Downloads folder
+# All Video Downloader — Chrome Extension
+
+**ভার্সন:** 1.0 | **Manifest:** V3
+
+## 📦 ইনস্টলেশন (Chrome)
+
+1. এই ফোল্ডারটি আনজিপ করুন
+2. Chrome-এ যান: `chrome://extensions/`
+3. উপরে ডানদিকে **"Developer mode"** চালু করুন
+4. **"Load unpacked"** বাটনে ক্লিক করুন
+5. এই ফোল্ডারটি সিলেক্ট করুন (`AllVideoDownloader/`)
+6. এক্সটেনশন ইনস্টল হয়ে যাবে ✅
+
+---
+
+## 🎬 কিভাবে ব্যবহার করবেন
+
+1. **Facebook / YouTube / Instagram** — যেকোনো ভিডিও পেজে যান
+2. ভিডিওটি **প্লে করুন** (গুরুত্বপূর্ণ!)
+3. ব্রাউজারের টুলবারে **এক্সটেনশন আইকনে** ক্লিক করুন
+4. পপআপে **"Scan for Videos"** বাটনে ক্লিক করুন
+5. ভিডিও লিস্টে পাওয়া গেলে **"Download MP4"** বাটনে ক্লিক করুন
+
+---
+
+## ⚠️ গুরুত্বপূর্ণ নোট
+
+### YouTube
+YouTube তাদের ভিডিও **DASH/HLS + DRM** দিয়ে এনক্রিপ্ট করে রাখে।  
+Browser থেকে সরাসরি MP4 URL পাওয়া **কঠিন বা অসম্ভব**।  
+YouTube-এর জন্য **yt-dlp** বা অনুরূপ টুল বেশি কার্যকর।
+
+### Facebook & Instagram
+ভিডিও **প্লে করার পরে** স্ক্যান করলে সেরা ফলাফল পাওয়া যায়।  
+কিছু ভিডিও CORS পলিসির কারণে সরাসরি ডাউনলোড নাও হতে পারে।
+
+### CORS সীমাবদ্ধতা
+সব ভিডিও ব্লব ডাউনলোডযোগ্য নয়। এক্সটেনশন `chrome.downloads` API ব্যবহার করে  
+সরাসরি URL থেকে ডাউনলোড করার চেষ্টা করে।
+
+---
+
+## 📁 ফাইল স্ট্রাকচার
+
+```
+AllVideoDownloader/
+├── manifest.json       ← এক্সটেনশন কনফিগ (Manifest V3)
+├── popup.html          ← পপআপ UI
+├── popup.css           ← ডার্ক থিম স্টাইল
+├── popup.js            ← পপআপ লজিক
+├── content.js          ← পেজে ইনজেক্টেড স্ক্রিপ্ট
+├── background.js       ← Service Worker (ডাউনলোড হ্যান্ডলার)
+└── icons/
+    ├── icon16.png
+    ├── icon48.png
+    └── icon128.png
+```
+
+---
+
+## 🔒 পার্মিশন
+
+| পার্মিশন | কারণ |
+|----------|------|
+| `activeTab` | বর্তমান ট্যাবে স্ক্রিপ্ট রান করতে |
+| `scripting` | পেজে ভিডিও স্ক্যান করতে |
+| `downloads` | ফাইল ডাউনলোড করতে |
+| `tabs` | ট্যাব URL পড়তে |
+
+---
+
+> ⚠️ **Disclaimer:** এই টুলটি শুধুমাত্র ব্যক্তিগত ব্যবহারের জন্য।  
+> কপিরাইট আইন মেনে চলুন। অন্যের কন্টেন্ট অনুমতি ছাড়া ডাউনলোড বা শেয়ার করবেন না।
