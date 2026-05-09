@@ -71,3 +71,12 @@ AllVideoDownloader/
 
 > ⚠️ **Disclaimer:** এই টুলটি শুধুমাত্র ব্যক্তিগত ব্যবহারের জন্য।  
 > কপিরাইট আইন মেনে চলুন। অন্যের কন্টেন্ট অনুমতি ছাড়া ডাউনলোড বা শেয়ার করবেন না।
+>
+> ##👨‍💻Author
+
+Jobair  
+- GitHub: [@jobairzihan343] (https://github.com/jobairzihan343)
+- Email: gamerjk980@gmail.com
+- YouTube: https://www.youtube.com/@Jztechstudio
+---
+
