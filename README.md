@@ -12,14 +12,10 @@
 
 # 🚀 Features
 
+# 🚀 Features
+
 <p align="center">
-
-⚡ One-click video scanning  
-🎥 Facebook / Instagram video detection  
-📥 Download MP4 (where available)  
-🌙 Clean Dark Mode UI  
-🔍 Smart video extractor engine  
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=⚡+One-click+video+scanning;🎥+Facebook+%2F+Instagram+video+detection;📥+Download+MP4+(where+available);🌙+Clean+Dark+Mode+UI;🔍+Smart+video+extractor+engine" />
 </p>
 
 ---
