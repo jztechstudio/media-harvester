@@ -26,12 +26,12 @@
 
 # 📦 Installation (Chrome)
 
-1. Download / unzip the project  
+1. Download / unzip project  
 2. Open 👉 `chrome://extensions/`  
-3. Enable **Developer mode** (top right)  
+3. Enable **Developer mode**  
 4. Click **Load unpacked**  
-5. Select `AllVideoDownloader/` folder  
-6. Done ✅ Extension installed  
+5. Select project folder  
+6. Done ✅ Installed  
 
 ---
 
@@ -39,8 +39,8 @@
 
 <p align="center">
 
-1️⃣ Open any video page (Facebook / Instagram / Web)  
-2️⃣ Play the video ▶️  
+1️⃣ Open video page (Facebook / Instagram / Web)  
+2️⃣ Play video ▶️  
 3️⃣ Click extension icon  
 4️⃣ Press **Scan for Videos**  
 5️⃣ Click **Download MP4**  
@@ -52,21 +52,21 @@
 # ⚠️ Important Notes
 
 ## ▶️ YouTube
-- DRM / DASH protected videos  
-- direct MP4 download not always possible  
-- use tools like `yt-dlp` for best results  
+- DRM protected videos  
+- Direct download not always possible  
+- Use tools like yt-dlp  
 
 ---
 
-## 📘 Facebook & Instagram
-- works best after video play  
-- some videos blocked due to CORS policy  
+## 📘 Facebook / Instagram
+- Works after video play  
+- Some videos blocked by CORS  
 
 ---
 
 ## 🔒 Limitations
-- Not all videos are downloadable  
-- Uses `chrome.downloads API` for downloading  
+- Not all videos downloadable  
+- Uses Chrome download API  
 
 ---
 
@@ -84,34 +84,46 @@ AllVideoDownloader/
     ├── icon16.png
     ├── icon48.png
     └── icon128.png
+---
+
+# 🔐 Permissions
+
+| Permission | Purpose |
+|------------|--------|
+| activeTab  | Access current tab |
+| scripting  | Run scripts |
+| downloads  | Download files |
+| tabs       | Read tab info |
 
 ---
 
-## 🔒 পার্মিশন
+# ⚠️ Disclaimer
 
-| পার্মিশন | কারণ |
-|----------|------|
-| `activeTab` | বর্তমান ট্যাবে স্ক্রিপ্ট রান করতে |
-| `scripting` | পেজে ভিডিও স্ক্যান করতে |
-| `downloads` | ফাইল ডাউনলোড করতে |
-| `tabs` | ট্যাব URL পড়তে |
-
----
-#  ⚠️ Disclaimer
-<p align="center"> This tool is for educational & personal use only.<br/> Please respect copyright laws. </p>
+<p align="center">
+This tool is for educational & personal use only.<br/>
+Respect all copyright laws.
+</p>
 
 ---
 
->
-> ##👨‍💻Author
+# 👨‍💻 Author
 
-Jobair  
-- GitHub: [@jobairzihan343] (https://github.com/jobairzihan343)
-- Email: gamerjk980@gmail.com
-- YouTube: https://www.youtube.com/@Jztechstudio
+<p align="center">
+
+**Jobair**
+
+GitHub: :contentReference[oaicite:0]{index=0}  
+Email: gamerjk980@gmail.com  
+
+YouTube: :contentReference[oaicite:1]{index=1}  
+https://www.youtube.com/@Jztechstudio  
+
+</p>
+
 ---
 
-#  ✨ Quote
-<p align="center"> 💡 "Build tools that make life easier." </p> ```
+# ✨ Quote
 
-
+<p align="center">
+💡 "Build tools that make life easier."
+</p>
