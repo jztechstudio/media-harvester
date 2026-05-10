@@ -100,10 +100,11 @@ AllVideoDownloader/
 # ⚠️ Disclaimer
 
 <p align="center">
-This tool is for educational & personal use only.<br/>
-Respect all copyright laws.
+  <div style="border:2px solid #ff4d4d; padding:15px; border-radius:10px; background-color:#1a1a1a;">
+    <b>⚠️ This tool is for educational & personal use only.</b><br/>
+    Respect all copyright laws and use responsibly.
+  </div>
 </p>
-
 ---
 
 # 👨‍💻 Author
