@@ -105,6 +105,7 @@ AllVideoDownloader/
     Respect all copyright laws and use responsibly.
   </div>
 </p>
+
 ---
 
 # 👨‍💻 Author
