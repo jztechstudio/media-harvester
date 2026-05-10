@@ -1,60 +1,89 @@
-# All Video Downloader — Chrome Extension
+# 🚀 🎬 All Video Downloader — Chrome Extension
 
-**ভার্সন:** 1.0 | **Manifest:** V3
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=🎬+All+Video+Downloader+Extension;⚡+Download+Videos+from+Web+Pages;🚀+Fast+%7C+Simple+%7C+Lightweight;💻+Chrome+Extension+Manifest+V3" />
+</p>
 
-## 📦 ইনস্টলেশন (Chrome)
-
-1. এই ফোল্ডারটি আনজিপ করুন
-2. Chrome-এ যান: `chrome://extensions/`
-3. উপরে ডানদিকে **"Developer mode"** চালু করুন
-4. **"Load unpacked"** বাটনে ক্লিক করুন
-5. এই ফোল্ডারটি সিলেক্ট করুন (`AllVideoDownloader/`)
-6. এক্সটেনশন ইনস্টল হয়ে যাবে ✅
+<p align="center">
+  <b>Version 1.0</b> • <b>Manifest V3</b>
+</p>
 
 ---
 
-## 🎬 কিভাবে ব্যবহার করবেন
+# 🚀 Features
 
-1. **Facebook / YouTube / Instagram** — যেকোনো ভিডিও পেজে যান
-2. ভিডিওটি **প্লে করুন** (গুরুত্বপূর্ণ!)
-3. ব্রাউজারের টুলবারে **এক্সটেনশন আইকনে** ক্লিক করুন
-4. পপআপে **"Scan for Videos"** বাটনে ক্লিক করুন
-5. ভিডিও লিস্টে পাওয়া গেলে **"Download MP4"** বাটনে ক্লিক করুন
+<p align="center">
 
----
+⚡ One-click video scanning  
+🎥 Facebook / Instagram video detection  
+📥 Download MP4 (where available)  
+🌙 Clean Dark Mode UI  
+🔍 Smart video extractor engine  
 
-## ⚠️ গুরুত্বপূর্ণ নোট
-
-### YouTube
-YouTube তাদের ভিডিও **DASH/HLS + DRM** দিয়ে এনক্রিপ্ট করে রাখে।  
-Browser থেকে সরাসরি MP4 URL পাওয়া **কঠিন বা অসম্ভব**।  
-YouTube-এর জন্য **yt-dlp** বা অনুরূপ টুল বেশি কার্যকর।
-
-### Facebook & Instagram
-ভিডিও **প্লে করার পরে** স্ক্যান করলে সেরা ফলাফল পাওয়া যায়।  
-কিছু ভিডিও CORS পলিসির কারণে সরাসরি ডাউনলোড নাও হতে পারে।
-
-### CORS সীমাবদ্ধতা
-সব ভিডিও ব্লব ডাউনলোডযোগ্য নয়। এক্সটেনশন `chrome.downloads` API ব্যবহার করে  
-সরাসরি URL থেকে ডাউনলোড করার চেষ্টা করে।
+</p>
 
 ---
 
-## 📁 ফাইল স্ট্রাকচার
+# 📦 Installation (Chrome)
 
-```
+1. Download / unzip the project  
+2. Open 👉 `chrome://extensions/`  
+3. Enable **Developer mode** (top right)  
+4. Click **Load unpacked**  
+5. Select `AllVideoDownloader/` folder  
+6. Done ✅ Extension installed  
+
+---
+
+# 🎬 How to Use
+
+<p align="center">
+
+1️⃣ Open any video page (Facebook / Instagram / Web)  
+2️⃣ Play the video ▶️  
+3️⃣ Click extension icon  
+4️⃣ Press **Scan for Videos**  
+5️⃣ Click **Download MP4**  
+
+</p>
+
+---
+
+# ⚠️ Important Notes
+
+## ▶️ YouTube
+- DRM / DASH protected videos  
+- direct MP4 download not always possible  
+- use tools like `yt-dlp` for best results  
+
+---
+
+## 📘 Facebook & Instagram
+- works best after video play  
+- some videos blocked due to CORS policy  
+
+---
+
+## 🔒 Limitations
+- Not all videos are downloadable  
+- Uses `chrome.downloads API` for downloading  
+
+---
+
+# 📁 Project Structure
+
+```txt
 AllVideoDownloader/
-├── manifest.json       ← এক্সটেনশন কনফিগ (Manifest V3)
-├── popup.html          ← পপআপ UI
-├── popup.css           ← ডার্ক থিম স্টাইল
-├── popup.js            ← পপআপ লজিক
-├── content.js          ← পেজে ইনজেক্টেড স্ক্রিপ্ট
-├── background.js       ← Service Worker (ডাউনলোড হ্যান্ডলার)
+├── manifest.json
+├── popup.html
+├── popup.css
+├── popup.js
+├── content.js
+├── background.js
 └── icons/
     ├── icon16.png
     ├── icon48.png
     └── icon128.png
-```
 
 ---
 
@@ -68,9 +97,11 @@ AllVideoDownloader/
 | `tabs` | ট্যাব URL পড়তে |
 
 ---
+#  ⚠️ Disclaimer
+<p align="center"> This tool is for educational & personal use only.<br/> Please respect copyright laws. </p>
 
-> ⚠️ **Disclaimer:** এই টুলটি শুধুমাত্র ব্যক্তিগত ব্যবহারের জন্য।  
-> কপিরাইট আইন মেনে চলুন। অন্যের কন্টেন্ট অনুমতি ছাড়া ডাউনলোড বা শেয়ার করবেন না।
+---
+
 >
 > ##👨‍💻Author
 
@@ -79,4 +110,8 @@ Jobair
 - Email: gamerjk980@gmail.com
 - YouTube: https://www.youtube.com/@Jztechstudio
 ---
+
+#  ✨ Quote
+<p align="center"> 💡 "Build tools that make life easier." </p> ```
+
 
