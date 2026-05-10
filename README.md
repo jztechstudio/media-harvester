@@ -107,20 +107,15 @@ AllVideoDownloader/
 </p>
 
 ---
-
 # 👨‍💻 Author
-
-<p align="center">
 
 **Jobair**
 
-GitHub: :contentReference[oaicite:0]{index=0}  
+GitHub: https://github.com/jobairzihan343  
+
 Email: 📧 gamerjk980@gmail.com  
 
-YouTube: :contentReference[oaicite:1]{index=1}  
-https://www.youtube.com/@Jztechstudio  
-
-</p>
+YouTube: https://www.youtube.com/@Jztechstudio
 
 ---
 
