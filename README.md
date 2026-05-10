@@ -72,6 +72,7 @@
 
 # 📁 Project Structure
 
+```txt
 AllVideoDownloader/
 ├── manifest.json
 ├── popup.html
@@ -84,7 +85,7 @@ AllVideoDownloader/
     ├── icon48.png
     └── icon128.png
 ---
-
+```
 # 🔐 Permissions
 
 | Permission | Purpose |
