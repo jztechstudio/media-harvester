@@ -111,7 +111,7 @@ AllVideoDownloader/
 
 **Jobair**
 
-GitHub: https://github.com/jobairzihan343  
+GitHub: https://github.com/jztechstudio
 
 Email: 📧 gamerjk980@gmail.com  
 
