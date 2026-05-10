@@ -72,7 +72,6 @@
 
 # 📁 Project Structure
 
-```txt
 AllVideoDownloader/
 ├── manifest.json
 ├── popup.html
